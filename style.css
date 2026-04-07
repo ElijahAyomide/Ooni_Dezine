@@ -7,7 +7,6 @@
 body {
     display: flex;
     font-family: "Poppins", sans-serif;
-    width: 100%;
 }
 
 aside {
@@ -151,7 +150,6 @@ aside {
 .page-right {
     display: flex;
     flex-direction: column;
-    width: 82%;
     margin-left: 18%;
 }
 
