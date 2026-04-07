@@ -1055,6 +1055,10 @@ footer p {
     }
     
     /* PROJECT SECTION */
+    .projects {
+        box-shadow: 0 0 7px rgb(21, 93, 251, .4), 0 0 10px rgb(21, 93, 251, .4), 0 0 15px rgb(21, 93, 251, .4);
+    }
+
     .projects-list {
         grid-template-columns: 1fr; /* 1 per row */
     }
@@ -1084,6 +1088,7 @@ footer p {
     
     .skills {
         width: 45%;
+        box-shadow: 0 0 7px rgb(21, 93, 251, .4), 0 0 10px rgb(21, 93, 251, .4), 0 0 15px rgb(21, 93, 251, .4);
     }
 
     .skills img {
@@ -1102,6 +1107,7 @@ footer p {
     .work {
         justify-content: flex-start;
         padding: 1rem;
+        box-shadow: 0 0 7px rgb(21, 93, 251, .4), 0 0 10px rgb(21, 93, 251, .4), 0 0 15px rgb(21, 93, 251, .4);
     }
 
     .work-top {
@@ -1124,6 +1130,7 @@ footer p {
     
     .contact-email {
         width: 100%;
+        box-shadow: 0 0 7px rgb(21, 93, 251, .4), 0 0 10px rgb(21, 93, 251, .4), 0 0 15px rgb(21, 93, 251, .4);
     }
 
     .message-details input,
@@ -1142,5 +1149,9 @@ footer p {
     
     .mobile-navigation {
         display: flex;
+    }
+
+    .main-mobile-nav {
+        box-shadow: 0 0 7px rgb(21, 93, 251, .4), 0 0 10px rgb(21, 93, 251, .4), 0 0 15px rgb(21, 93, 251, .4);
     }
 }
