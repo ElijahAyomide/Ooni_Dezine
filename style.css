@@ -170,6 +170,23 @@ aside {
     gap: 2rem;
 }
 
+.mobile-title {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile-title img {
+    height: 8rem;
+    width: 8rem;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #155dfb;
+    box-shadow: 0 0 10px rgb(21, 93, 251, .4), 0 0 20px rgb(21, 93, 251, .4), 0 0 30px rgb(21, 93, 251, .4);
+}
+
 .top-tag {
     display: flex;
     align-items: center;
@@ -273,7 +290,7 @@ aside {
     width: 100%;
     height: 20rem;
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("/assests/images/prod\ 1.png");
+    url("/assests/images/prod-1.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -388,7 +405,7 @@ aside {
     width: 100%;
     height: 15rem;
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("/assests/images/prod\ 3.png");
+    url("/assests/images/prod-3.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -400,7 +417,7 @@ aside {
     width: 100%;
     height: 15rem;
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("/assests/images/prod\ 4.jpg");
+    url("/assests/images/prod-4.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -412,7 +429,7 @@ aside {
     width: 100%;
     height: 15rem;
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("/assests/images/prod\ 5.jpg");
+    url("/assests/images/prod-5.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -424,7 +441,7 @@ aside {
     width: 100%;
     height: 15rem;
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("/assests/images/prod\ 6.jpg");
+    url("/assests/images/prod-6.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -436,7 +453,7 @@ aside {
     width: 100%;
     height: 15rem;
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("/assests/images/prod\ 7.jpg");
+    url("/assests/images/prod-7.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -448,7 +465,7 @@ aside {
     width: 100%;
     height: 15rem;
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("/assests/images/prod\ 8.jpg");
+    url("/assests/images/prod-8.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -999,11 +1016,15 @@ footer p {
         border: 1px solid rgb(21, 93, 251);
     }
 
+    .mobile-title {
+        display: flex;
+    }
+
     .left-hero {
         justify-content: center;
         align-items: center;
         text-align: center;
-        gap: 10px;
+        gap: 1rem;
     }
     
     .left-hero h1 {
@@ -1040,13 +1061,13 @@ footer p {
     
     .project-section {
         padding: 2rem 1.5rem;
-        justify-content: center;
-        align-items: center;
+        /* justify-content: center;
+        align-items: center; */
     }
 
     .project-head {
-        justify-content: center;
-        align-items: center;
+        /* justify-content: center;
+        align-items: center; */
     }
     
     /* ABOUT */
@@ -1054,21 +1075,21 @@ footer p {
         padding: 2rem 1.5rem;
     }
 
-    .about-header,
+    /* .about-header,
     .education,
     .professional-experience {
         justify-content: center;
         align-items: center;
         text-align: center;
-    }
+    } */
     
     /* SKILLS */
 
     .skill-section {
         padding: 2rem 1.5rem;
-        justify-content: center;
+        /* justify-content: center;
         align-items: center;
-        text-align: center;
+        text-align: center; */
     }
     
     .skills-container {
@@ -1090,8 +1111,8 @@ footer p {
     }
 
     .skill-header {
-        justify-content: center;
-        align-items: center;
+        /* justify-content: center;
+        align-items: center; */
         gap: 5px;
     }
 
@@ -1102,8 +1123,8 @@ footer p {
 
     .work-top {
         display: flex;
-        align-items: center;
-        justify-content: space-between;
+        /* align-items: center;
+        justify-content: space-between; */
     }
 
     .work-top p {
