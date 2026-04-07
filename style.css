@@ -167,7 +167,7 @@ aside {
 .left-hero {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .mobile-title {
@@ -278,7 +278,7 @@ aside {
 }
 
 .right-hero {
-    width: 31rem;
+    width: 27rem;
     display: flex;
     flex-direction: column;
     border-radius: 10px;
@@ -290,7 +290,7 @@ aside {
     width: 100%;
     height: 20rem;
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("/assests/images/prod-1.png");
+    url("images/prod-1.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -405,7 +405,7 @@ aside {
     width: 100%;
     height: 15rem;
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("/assests/images/prod-3.png");
+    url("images/prod-3.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -417,7 +417,7 @@ aside {
     width: 100%;
     height: 15rem;
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("/assests/images/prod-4.jpg");
+    url("images/prod-4.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -429,7 +429,7 @@ aside {
     width: 100%;
     height: 15rem;
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("/assests/images/prod-5.jpg");
+    url("images/prod-5.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -441,7 +441,7 @@ aside {
     width: 100%;
     height: 15rem;
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("/assests/images/prod-6.jpg");
+    url("images/prod-6.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -453,7 +453,7 @@ aside {
     width: 100%;
     height: 15rem;
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("/assests/images/prod-7.jpg");
+    url("images/prod-7.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -465,7 +465,7 @@ aside {
     width: 100%;
     height: 15rem;
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("/assests/images/prod-8.jpg");
+    url("images/prod-8.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
