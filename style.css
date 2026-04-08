@@ -1155,4 +1155,8 @@ footer p {
     .main-mobile-nav {
         box-shadow: 0 0 7px rgb(21, 93, 251, .4), 0 0 10px rgb(21, 93, 251, .4), 0 0 15px rgb(21, 93, 251, .4);
     }
+
+    .page-right {
+        width: 100%;
+    }
 }
